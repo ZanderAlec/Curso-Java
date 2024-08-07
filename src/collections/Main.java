@@ -1,7 +1,7 @@
-package collections;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
 
 public class Main {
@@ -53,8 +53,13 @@ public class Main {
 		
 		List<Integer> list = new ArrayList<Integer>(Arrays.asList(1,2,3));
 			
+		// List<Integer> list2 = new LinkedList<>(Arrays.asList(1,2,3));
+		// list2.add(0,1);
+		// list2.remove(0);
+		// list2.size();
+
 		//Lista possuem um m�todo "toString" que apresenta a lista na forma de array:
-		System.out.println(list);
+		System.out.println(list.size());
 		
 	}
 }
